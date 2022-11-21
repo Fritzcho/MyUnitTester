@@ -23,6 +23,7 @@ public class Test1 implements TestClass {
 	public boolean testIncrement() {
 	   myInt.increment();
 	   myInt.increment();
+	   System.out.println(myInt.value());
 	   return myInt.value()==2;
 
 	}
